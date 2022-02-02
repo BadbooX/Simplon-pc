@@ -1,54 +1,98 @@
-.redligne {
-    width: 500vw;
-    padding: 3px;
-    background-color: #D11328;
-}
+body { 
 
-
-.navbar {
-    width: 100%;
-    background-color: rgb(248, 248, 248);
-    overflow: auto;
-    box-shadow: 0 2px 4px 0 rgba(119, 116, 116, 0.726);
+    background-color: rgb(129, 127, 127);
   }
   
-
-  .navbar a {
-    float: left;
-    text-align: center;
-    padding: 12px;
-    color: rgb(139, 135, 135);
-    text-decoration: none;
-    font-size: 17px;
-  }
   
-  .navbar a:hover {
-    background-color: #D11328;
-  }
-  
-  .active {
-    background-color: #D11328;
-  }
-
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
+  .navbar {
+      width: 100%;
+      background-color: rgb(248, 248, 248);
+      overflow: auto;
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.726);
     }
-  }
-
-
-
-.contact  {
-
-    width:10vw;
-    height: 45px;
-    background-color: #D11328;
+    
+  
+    .navbar a {
+      float: left;
+      text-align: center;
+      padding: 12px;
+      color: rgb(139, 135, 135);
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+      background-color: #D11328;
+    }
+    
+    .active {
+      background-color: #D11328;
+    }
+  
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+  
+  
+  .contact  {
+  
+    border: 5px solid #D11328;
     text-align: center;
-    justify-content: center;
-    color: #ffff;
-
-
-
-
-  }
+    background-color: #D11328;
+    color:#fff;
+    width: 300px;
+    margin-left: 2vw;
+    margin-top: 10vw;
+  
+    }
+  
+    .cgps {
+  
+     background-color:  rgb(129, 127, 127);
+    }
+  
+    .gps { 
+  
+      margin-top: 8vw;
+      margin-left: 35vw;
+      border: #D11328;
+    }
+  
+    .texte {
+  
+      width: 100vw;
+      line-height: 2em;
+      text-align: center;
+      margin-bottom: 20vw;
+    
+      
+    }
+  
+    .A {
+      
+      margin-right: 73vw;
+      color: #D11328 ;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  
+    .B {
+  
+      margin-right: 75vw;
+      font-weight: bold;
+    }
+  
+    .C {
+  
+      margin-right: 75vw;
+      font-weight: bold;
+    }
+  
+    .D {
+  
+      margin-right: 75vw;
+      font-weight: bold;
+    }
