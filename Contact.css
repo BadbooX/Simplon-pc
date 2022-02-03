@@ -34,6 +34,10 @@ body {
       float: none;
       display: block;
     }
+    .cgps {
+      float: none;
+      display: block;
+    }
   }
 
 
@@ -85,18 +89,24 @@ body {
 
     margin-right: 75vw;
     font-weight: bold;
+    background-color: #D11328;
+    color: #fff;
   }
 
   .C {
 
     margin-right: 75vw;
     font-weight: bold;
+    background-color: #D11328;
+    color: #fff;
   }
 
   .D {
 
     margin-right: 75vw;
     font-weight: bold;
+    background-color: #D11328;
+    color:#fff
   }
 
  
