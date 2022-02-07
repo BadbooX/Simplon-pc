@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Input personnalisés</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title title-1">résérvation</h1>
+
+        <form class="form">
+            <div class="form__group">
+                <input type="text" class="form__input" id="nom" placeholder="Votre Nom" required>
+                <label for="nom" class="form__label">Votre Nom</label>
+            </div>
+            <div class="form__group">
+                <input type="email" class="form__input" id="email" placeholder="Votre Email" required>
+                <label for="email" class="form__label">Votre Email</label>
+            </div>
+            <div class="form__group">
+                <input type="letter" class="form__input" id="name" min="16" max="99" step="1" placeholder="Votre classe formation" required>
+                <label for="name_class" class="form__label">dev web</label>
+            </div>
+            <div class="form__message">
+                <label for="message" class="form__message-label">
+                    Message complémentaire  : pour reçevoir votre pc remplise le formulaie avec les papier justificatifs demandé
+                    une fois tous les documents reçu le traitement prendra 48h
+                </label>
+                <textarea name="" id="message" cols="30" rows="10" class="form__input message__input" required></textarea>
+            </div>
+
+            <div class="submit">
+                <button class="submitBtn">Envoyer &rarr;</button>
+            </div>
+        </form>
+    </div>
+   
+</body>
+
+</html>
