@@ -232,9 +232,9 @@
 /* Responsiv computec - fiche-tech */
 @media (max-width:1150px){
     .pic_comput{
-        
         width: 480px;
     }
+    
     .boutownup{
         width:330px;
     }
@@ -264,11 +264,96 @@
         line-height: 20px;
     }
     .return_button{
-        
-        
-       
         margin-right:40px;
     }
     
 }
 /* ---------------------------- */
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 50px;
+    width:100%;
+    background-color: #01497c;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 25px;
+    background-color: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar a:hover,
+  .subnav:hover .subnavbtn {
+    background: #8CA6DB;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    z-index: 2;
+    transform: perspective(10px);
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background: #B993D6;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        position:fixed;
+        opacity: 0;
+    }
+  
+    
+  }
