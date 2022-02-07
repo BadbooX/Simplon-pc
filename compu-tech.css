@@ -150,7 +150,9 @@
 .screened{
     margin-top: 300px;
 }
-
+.contented{
+    background: url("asset/procobg.jpeg") center no-repeat;
+}
 /* ----------------------------------------*/
 
 .paraph{
@@ -165,7 +167,7 @@
     border-radius:20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background: url("asset/procobg.jpeg") center no-repeat;
+    
 }
 .comp{
     text-align:center;
@@ -195,3 +197,78 @@
     height:400px;
 }
 /* Responsiv computec - accueil */
+@media (max-width:1150px){
+    .fiat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width: 100%;    
+    }
+
+    .paraph{
+        margin-bottom: 100px;
+    }
+    
+    .computs{
+        flex-wrap: wrap;
+        height: 10px;
+        width: 10px;
+        margin: auto;
+        
+        
+    }
+    .comp{
+        border-radius: 30px;
+        background-color: black;
+        margin-bottom: 50px;
+    }
+    .figdez{
+        color: white;
+        margin-bottom: 100px;
+    }
+}
+/* **************************** */
+/* Responsiv computec - fiche-tech */
+@media (max-width:1150px){
+    .pic_comput{
+        
+        width: 480px;
+    }
+    .boutownup{
+        width:330px;
+    }
+    .boutowndown{
+        width:330px;
+    }
+    .sect_main{
+        width: 200px;
+        justify-content: center;
+    }
+    .full_carac{
+        justify-content: center;
+    }
+    .titley{
+        line-height: 50px;
+    }
+    .screened{
+        margin-top: 100px;
+    }
+    .funny_h{
+        margin-top: 10px;
+    }
+    .screen{
+        margin-top: 7px;
+    }
+    .screen p{
+        line-height: 20px;
+    }
+    .return_button{
+        
+        
+       
+        margin-right:40px;
+    }
+    
+}
+/* ---------------------------- */
