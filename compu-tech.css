@@ -88,8 +88,6 @@
     margin:auto;
     width:430px;
     margin-top: 50px;
-    
-    
 }
 .boutownup:hover{
     background-color: grey;
@@ -153,6 +151,12 @@
 .contented{
     background: url("asset/procobg.jpeg") center no-repeat;
 }
+/* Navbar */
+.burgerkfc{
+    height: 20px;
+    width:20px;
+}
+
 /* ----------------------------------------*/
 
 .paraph{
@@ -266,6 +270,9 @@
     .return_button{
         margin-right:40px;
     }
+    footer{
+        margin-top: 3000px;
+    }
     
 }
 /* ---------------------------- */
@@ -274,14 +281,17 @@
     top: 0;
     display: flex;
     overflow: hidden;
+    
     justify-content: center;
     height: 50px;
     width:100%;
     background-color: #01497c;
     
-  }
+}
   
-  .navbar a {
+.navbar a {
+    font-family: 'Courier', Courier, monospace;
+    font-weight: bold;
     float: left;
     font-size: 16px;
     color: white;
@@ -293,12 +303,12 @@
     transition: all 0.5s ease;
   }
   
-  .subnav {
+.subnav {
     float: left;
     overflow: hidden;
-  }
+}
   
-  .subnav .subnavbtn {
+.subnav .subnavbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -310,50 +320,143 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: all 0.5s ease;
-  }
+}
   
-  .navbar a:hover,
-  .subnav:hover .subnavbtn {
+.navbar a:hover,.subnav:hover .subnavbtn {
     background: #8CA6DB;
     color: black;
     border-radius: 5px;
-  }
+}
   
-  .subnav-content {
+.subnav-content {
     display: none;
     position: absolute;
     left: 10px;
     width: 100%;
     z-index: 2;
     transform: perspective(10px);
-  }
+}
   
-  .subnav-content a {
+.subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
-  }
+}
   
-  .subnav-content a:hover {
+.subnav-content a:hover {
     background: #B993D6;
     color: black;
-  }
+}
   
-  .subnav:hover .subnav-content {
+.subnav:hover .subnav-content {
     display: flex;
     justify-content: center;
-  }
+}
+footer{
+    font-family: 'Courier', Courier, monospace;
+    display: flex;
+    justify-content: center;
 
+}
   
   /* Media Queries */
   
-  @media (max-width: 600px) {
+@media (max-width: 665px) {
     .navbar{
         display: flex;
         flex-wrap: wrap;
         position:fixed;
-        opacity: 0;
+        opacity: 1;
+        
     }
-  
-    
+    footer{
+        margin-top: 3000px;
+        font-family: 'Courier', Courier, monospace;
+    }
+    .navbar a{
+        display: flex;
+        padding: 12px 10px;
+    }
+    #burgerkfc{
+        display:flex;
+    }
   }
+  .footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition: all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  
+  .footer-distributed p.footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  
