@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.fiat{
+    background-color: black;
+    
+}
+
+.contented{
+    text-align:center;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.set_magic{
+    text-align: center;
+}
+
+/* Caract tech */
+.pic_comput{
+    height:400px;
+    width:600px;
+    box-shadow: 0px 5px 37px 2px rgba(0,0,0,0.59);
+}
+.return_button{
+    background: url("./asset/return.png") center;
+    width:50px;
+    height:50px;
+   margin-left:-100px;
+   margin-right:40px;
+}
+.pic_return{
+   
+    display: flex;
+    justify-content: center;
+}
+.sect_main{
+    height:80px;
+    width:450px;
+    line-height: 30px;
+    display:flex;
+    margin: auto;
+    margin-bottom: 15px;
+    justify-content: space-between;
+      
+}
+.upperpage{
+    margin-bottom: 20px;
+}
+.caps{
+    color: grey;
+}
+.titley{
+    line-height: 70px;
+}
+.btcarac{
+
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 40px;
+    width:100%;
+    height: 100%;
+    margin-bottom: 1.7%;
+    
+}
+.btcarac:hover{
+    
+    color: white;
+}
+.full_carac{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.funny_h{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.boutownup{
+    border: 2px solid black;
+    border-radius: 30px;
+    margin:auto;
+    width:430px;
+    margin-top: 50px;
+    
+    
+}
+.boutownup:hover{
+    background-color: grey;
+}
+
+.moovingbutton{
+    color: blue;
+}
+
+.boutowndown{
+    display: flex;
+    height: 10px;
+    width:430px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+    padding: 5px;
+    
+    margin-bottom:15px;
+}
+.boutowndown:hover{
+    background-color: grey;
+}
+.audio{
+    margin-bottom: 20px;
+}
+.qst{
+    height:100px;
+    width:100px;
+   
+    
+}
+.answ{
+    color: grey;
+    height:100px;
+    width:100px;
+    background-color: azure;
+}
+.imgproc{
+    height:100px;
+    width:130px;
+    background: url("asset/procoico.png") center no-repeat;
+}
+.imgmemory{
+    height: 100px;
+    width:130px;
+    background:url("asset/memoryicovt.png") center no-repeat;
+}
+.imgscreen{
+    height:100px;
+    width:130px;
+    background: url("asset/imgscreen.png") center no-repeat;
+}
+.screened{
+    margin-top: 300px;
+}
+
+/* ----------------------------------------*/
+
+.paraph{
+    margin:auto;
+    color: white;
+    width:50%;
+    height:200px;
+    padding: 50px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.71);
+    width: auto;
+    height:200px;
+    border-radius:20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: url("asset/procobg.jpeg") center no-repeat;
+}
+.comp{
+    text-align:center;
+    width:450px;
+    height:450px;
+    box-shadow: 0px 5px 37px 2px rgba(0,0,0,0.59);
+    border-radius: 5px;
+    background-color: white;
+}
+.computs{
+    background: url("./asset/back-tech.jpeg") center no-repeat;
+    margin:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 1700px;
+    width: 1200px;
+    border-radius: 20px;
+}
+.titty{
+    background-color:white;
+    width:400px;
+    height:400px;
+}
+/* Responsiv computec - accueil */
